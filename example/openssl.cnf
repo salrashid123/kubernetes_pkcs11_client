@@ -1,0 +1,20 @@
+[openssl_init]
+providers = provider_sect
+
+[provider_sect]
+default = default_sect
+pkcs11 = pkcs11_sect
+base = base_sect
+
+[default_sect]
+activate = 1
+
+[base_sect]
+activate = 1
+
+[pkcs11_sect]
+activate = 1
+engine_id = pkcs11
+dynamic_path = /usr/lib/x86_64-linux-gnu/engines-3/libpkcs11.so
+module = /usr/lib/x86_64-linux-gnu/ossl-modules/pkcs11.so
+pkcs11-module-path =  /usr/lib/softhsm/libsofthsm2.so
