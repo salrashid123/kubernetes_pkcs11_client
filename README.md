@@ -57,7 +57,6 @@ Verify the path,
 ```bash
 # edit `/etc/ssl/openssl.cnf`
 
-```bash
 openssl_conf = openssl_def
 [openssl_def]
 engines = engine_section
