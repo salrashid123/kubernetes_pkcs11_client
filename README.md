@@ -224,10 +224,6 @@ $ go run main.go --address="https://192.168.49.2:8443" \
 Found 0 pods:
 ```
 
-Note that the example above create a key _on the tpm_ but you can certainly import a key or duplicate and transfer:
-
-* [tpmcopy: Transfer RSA|ECC|AES|HMAC key to a remote Trusted Platform Module (TPM)](https://github.com/salrashid123/tpmcopy)
-
 ### using curl and openssl
 
 Note, curl needs to be build with engine support
